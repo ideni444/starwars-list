@@ -1,0 +1,25 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  padding: 30px;
+  max-width: 1280px;
+  margin: 0 auto;
+  gap: 30px;
+  background-color: #e1eaef;
+
+  &_isLoading {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+
+  &__loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -50px;
+    z-index: 1; 
+  }
+}

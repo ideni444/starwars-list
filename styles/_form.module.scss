@@ -1,0 +1,16 @@
+.form {
+  display: flex;
+  justify-content: center;
+
+  &__input {
+    border: 2px solid #aebecd;
+    border-radius: 4px;
+    height: 40px;
+    width: 50%;
+    padding: 8px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

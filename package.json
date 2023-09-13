@@ -1,0 +1,30 @@
+{
+	"name": "country-search",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"format": "npx prettier --write ."
+	},
+	"dependencies": {
+		"next": "12.2.3",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-loader-spinner": "^5.4.5",
+		"sass": "^1.66.1"
+	},
+	"devDependencies": {
+		"@types/node": "^20.6.0",
+		"@types/react": "^18.2.21",
+		"@types/react-dom": "^18.2.7",
+		"@typescript-eslint/eslint-plugin": "^6.7.0",
+		"@typescript-eslint/parser": "^6.7.0",
+		"eslint": "^8.49.0",
+		"eslint-plugin-react": "^7.33.2",
+		"prettier": "3.0.3",
+		"typescript": "^5.2.2"
+	}
+}
